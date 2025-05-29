@@ -5,7 +5,7 @@ const pages = {
 
       <!-- Figure and text section -->
       <div class="figure-text-section">
-        <img src="https://cdn.glitch.global/58531a16-f1e8-4ee7-93b8-d5e0caf048ea/Ines2024_photo.jpg?v=1735896908900" alt="Figure description">
+        <img src="images/Ines2024_photo.jpg" alt="Figure description">
         <!-- Replace 'path-to-your-figure.jpg' with your figure's URL -->
         <div class="text-content">
           <h2>About</h2>
