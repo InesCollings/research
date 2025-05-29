@@ -58,11 +58,17 @@ const pages = {
       </div>
       
       <h1>Open positions</h1>
-        <h3>Fully Funded PhD studentship for UK tuition fees on salt hydrate mineralogy.
-        <a href="https://www.nhm.ac.uk/our-science/study/postgraduate/phd-opportunities/projects/salt-hydrates-high-pressure-low-temperature.html" target="_blank">Salt hydrates at high pressure and low temperature: Implications for icy moon explorations</a>
+      <div class="publication">
+      <div class="publication-text">
+        <p3>Get in touch if interested in PhD or postdoctoral positions in our group.
+      </div>
+      </div>
 
-        <h3>Fully Funded PhD studentship for UK tuition fees on diamond inclusions.
-        <a href="https://www.trees-dla.ac.uk/projects/exploring-deep-earth-through-non-destructive-analysis-diamond-inclusions" target="_blank">Exploring the Deep Earth through Non-Destructive Analysis of Diamond Inclusions</a>
+      <div class="publication">
+      <div class="publication-text">
+        <p>We are also able to provide co-supervision of master projects in partnership with London universities.</p>
+      </div>
+      </div>
     </section>
     <div style="height: 50px;"></div>
   `,
@@ -100,7 +106,7 @@ const pages = {
       <div class="publication">
         <img src="https://cdn.glitch.global/58531a16-f1e8-4ee7-93b8-d5e0caf048ea/toc3.png?v=1734957863538" alt="Publication 2 Image">
         <div class="publication-text">
-          <h3>Competing phases in the room-temperature M2(2,6-ndc)2(dabco) metal–organic framework thin film synthesis</h3>
+          <h3>Competing phases in the room-temperature M<sub>2</sub>(2,6-ndc)<sub>2</sub>(dabco) metal–organic framework thin film synthesis</h3>
           <p>L. Hamon, I. Andrusenko, A. Borzì, M. Stiefel, S. Carl, R. Frison, A. Cervellino, M. Gemmi, G. Santiso-Quinones, E. Hovestreydt, A. Neels, I. E. Collings, Adv. Mater., 3, 6869-6877, (2022).</p>
           <a href="https://pubs.rsc.org/en/content/articlelanding/2022/ma/d2ma00389a" target="_blank">Read More</a>
         </div>
@@ -118,7 +124,7 @@ const pages = {
       <div class="publication">
         <img src="https://cdn.glitch.global/58531a16-f1e8-4ee7-93b8-d5e0caf048ea/PBA_toc-01.png?v=1734957945521" alt="Publication 2 Image">
         <div class="publication-text">
-          <h3>Spin crossover in the Prussian blue analogue FePt(CN)6 induced by pressure or X-ray irradiation</h3>
+          <h3>Spin crossover in the Prussian blue analogue FePt(CN)<sub>6</sub> induced by pressure or X-ray irradiation</h3>
           <p>H. L. B. Boström, A. B Cairns, L. Liu, P. Lazor, I. E. Collings, Dalton Trans., 49, 12940–12944, (2020).</p>
           <a href="https://pubs.rsc.org/en/content/articlelanding/2020/dt/d0dt02036b" target="_blank">Read More</a>
         </div>
@@ -136,7 +142,7 @@ const pages = {
       <div class="publication">
         <img src="https://cdn.glitch.global/58531a16-f1e8-4ee7-93b8-d5e0caf048ea/Metal_formates_Ptak2020.jpeg?v=1734958308054" alt="Publication 2 Image">
         <div class="publication-text">
-          <h3>Effect of Alkali and Trivalent Metal Ions on the High-Pressure Phase Transition of [C2H5NH3]MI0.5MIII0.5(HCOO)3 (MI = Na, K and MIII = Cr, Al) Heterometallic Perovskites</h3>
+          <h3>Effect of Alkali and Trivalent Metal Ions on the High-Pressure Phase Transition of [C<sub>2</sub>H<sub>5</sub>NH<sub>3</sub>]M<sup>I</sup><sub>0.5</sub>M<sup>III</sup><sub>0.5</sub>(HCOO)<sub>3,</sub> (M<sup>I</sup> = Na, K and M<sup>III</sup> = Cr, Al) Heterometallic Perovskites</h3>
           <p>M. Ptak, K. L. Svane, I. E. Collings, and W. Paraguassu, J. Phys. Chem. C, 124, 6337–6348, (2020).</p>
           <a href="https://pubs.acs.org/doi/10.1021/acs.jpcc.0c00372" target="_blank">Read More</a>
         </div>
@@ -172,7 +178,7 @@ const pages = {
       <div class="publication">
         <img src="https://cdn.glitch.global/58531a16-f1e8-4ee7-93b8-d5e0caf048ea/2_TOC-01.png?v=1735225016842" alt="Publication 2 Image">
         <div class="publication-text">
-          <h3>Raman and single-crystal X-ray diffraction evidence of pressure-induced phase transitions in a perovskite-like framework of [(C3H7)4N][Mn(N(CN)2)3]</h3>
+          <h3>Raman and single-crystal X-ray diffraction evidence of pressure-induced phase transitions in a perovskite-like framework of [(C<sub>3</sub>H<sub>7</sub>)<sub>4</sub>N][Mn(N(CN)<sub>2</sub>)<sub>3</sub>]</h3>
           <p>M. Mączka, I. E. Collings, F. F. Leite, and W. Paraguassu, Dalton Trans., 48, 9072–9078, (2019).</p>
           <a href="https://pubs.rsc.org/en/content/articlelanding/2019/dt/c9dt01648a" target="_blank">Read More</a>
         </div>
@@ -181,7 +187,7 @@ const pages = {
       <div class="publication">
         <img src="https://cdn.glitch.global/58531a16-f1e8-4ee7-93b8-d5e0caf048ea/Metal_formates_Ptak2019.jpeg?v=1735228239613" alt="Publication 2 Image">
         <div class="publication-text">
-          <h3>Pressure-enhanced ferroelectric polarisation in polar perovskite-like [C2H5NH3]Na0.5Cr0.5(HCOO)3 metal–organic framework</h3>
+          <h3>Pressure-enhanced ferroelectric polarisation in polar perovskite-like [C<sub>2</sub>H<sub>5</sub>NH<sub>3</sub>]Na<sub>0.5</sub>Cr<sub>0.5</sub>(HCOO)<sub>3</sub> metal–organic framework</h3>
           <p>M. Ptak, I. E. Collings, K. L. Svane, A. Sieradzki, W. Paraguassu, and M. Mączka, J. Mater. Chem. C, 7, 8660–8668, (2019).</p>
           <a href="https://pubs.rsc.org/en/content/articlelanding/2019/tc/c9tc01924c" target="_blank">Read More</a>
         </div>
@@ -199,7 +205,7 @@ const pages = {
       <div class="publication">
         <img src="https://cdn.glitch.global/58531a16-f1e8-4ee7-93b8-d5e0caf048ea/GaH2PO2_toc.png?v=1735228278514" alt="Publication 2 Image">
         <div class="publication-text">
-          <h3>Polymorphism in M(H2PO2)3 (M = V, Al, Ga) compounds with the perovskite-related ReO3 structure</h3>
+          <h3>Polymorphism in M(H<sub>2</sub>PO<sub>2</sub>)<sub>3</sub> (M = V, Al, Ga) compounds with the perovskite-related ReO<sub>3</sub> structure</h3>
           <p>H. A. Evans, Z. Deng, I. E. Collings, Y. Wu, J. L. Andrews, K. Pilar, J. M. Tuffnell, G. Wu, J. Wang, S. E. Dutton, P. D. Bristowe, R. Seshadri, and A. K. Cheetham, Chem. Commun., 55, 2964–2967, (2019).</p>
           <a href="https://pubs.rsc.org/en/content/articlelanding/2019/cc/c9cc00118b" target="_blank">Read More</a>
         </div>
@@ -226,7 +232,7 @@ const pages = {
       <div class="publication">
         <img src="https://cdn.glitch.global/58531a16-f1e8-4ee7-93b8-d5e0caf048ea/DMAMF_TOC.png?v=1734957887332" alt="Publication 2 Image">
         <div class="publication-text">
-          <h3>Disorder–order transitions in the perovskite metal–organic frameworks [(CH3)2NH2][M(HCOO)3] at high pressure</h3>
+          <h3>Disorder–order transitions in the perovskite metal–organic frameworks [(CH<sub>3</sub>)<sub>2</sub>NH<sub>2</sub>][M(HCOO)<sub>3</sub>] at high pressure</h3>
           <p>I. E. Collings, M. Bykov, E. Bykova, M. Hanfland, S. van Smaalen, L. Dubrovinsky, and N. Dubrovinskaia, CrystEngComm, 20, 3512–3521, (2018). </p>
           <a href="https://pubs.rsc.org/en/content/articlelanding/2018/ce/c8ce00617b" target="_blank">Read More</a>
         </div>
@@ -278,11 +284,11 @@ const pages = {
       </div>
 
       <div class="publication">
-        <img src="https://cdn.glitch.global/58531a16-f1e8-4ee7-93b8-d5e0caf048ea/DMAMF_TOC.png?v=1734957887332" alt="Publication 2 Image">
+        <img src="https://cdn.glitch.global/58531a16-f1e8-4ee7-93b8-d5e0caf048ea/Agmim_supramolecular%20mechanics.png?v=1740750596246" alt="Publication 2 Image">
         <div class="publication-text">
           <h3>Supramolecular mechanics in a metal–organic framework</h3>
           <p>J. M. Ogborn, I. E. Collings, S. A. Moggach, A. L. Thompson and A. L. Goodwin, Chem. Sci. 3, 3011–3017, (2012). </p>
-          <a href="https://pubs.rsc.org/en/content/articlelanding/2018/ce/c8ce00617b" target="_blank">Read More</a>
+          <a href="https://pubs.rsc.org/en/content/articlelanding/2012/sc/c2sc20596c" target="_blank">Read More</a>
         </div>
       </div>
 
@@ -309,8 +315,12 @@ const pages = {
   contact: `
     <section>
       <h1>Contact</h1>
-      <p>Email: ines.collings.{at}.nhm.ac.uk</p>
-      <p>Adress: Department of Earth Sciences, Natural History Museum, Cromwell Road, South Kensington, London SW7 5BD</p>
+      <div class="publication">
+      <div class="publication-text">
+        <p>For general inquiries about open positions or collaborations, please get in touch via email: ines.collings{at}nhm.ac.uk</p>
+      </div>
+      </div>
+      <p>Postal Address: Department of Earth Sciences, Natural History Museum, Cromwell Road, South Kensington, London SW7 5BD</p>
       <a href="https://www.linkedin.com/in/ines-collings-9b564882/"target="_blank">LinkedIn</a>
     </section>
   `,
