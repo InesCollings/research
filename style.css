@@ -1,4 +1,37 @@
 /* General Styling */
+
+/* General link styling */
+a {
+  color: blue; /* Set the link color to blue */
+  text-decoration: none; /* Remove the underline (optional) */
+}
+
+
+
+/* Default styling for all devices */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add borders for larger screens (laptops and above) */
+@media (min-width: 768px) {
+  main {
+    border-left: 20px ; /* Add left border */
+    border-right: 20px ; /* Add right border */
+    margin: 0 auto;
+    max-width: 1200px; /* Optional: Limit the content width */
+  }
+}
+
+/* Remove borders for smaller screens (phones) */
+@media (max-width: 767px) {
+  main {
+    border: none;
+    margin: 0;
+  }
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -93,6 +126,25 @@ footer {
   line-height: 1.6;
 }
 
+/* Responsive styling for smaller screens */
+@media (max-width: 767px) {
+  .figure-text-section {
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center-align content */
+    text-align: center; /* Center-align text */
+  }
+
+  .figure-text-section img {
+    width: 50%; /* Adjust image size for smaller screens */
+    margin-bottom: 0; /* Space between image and text */
+  }
+
+  .figure-text-section .text-content {
+    width: 100%; /* Ensure text takes full width */
+    font-size: 14px; /* Optional: Slightly smaller font size for readability */
+  }
+}
+
 /* Container for the research boxes */
 .research {
   display: flex;
@@ -158,11 +210,34 @@ footer {
 }
 
 .publication-text a {
-  color: #4CAF50;
+  color:  blue;
   text-decoration: none;
-  font-weight: bold;
+
 }
 
 .publication-text a:hover {
   text-decoration: underline;
 }
+
+/* Responsive styling for mobile devices */
+@media (max-width: 767px) {
+  .publication {
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center-align content */
+    text-align: center; /* Center-align text */
+  }
+
+  .publication img {
+    width: 80%; /* Reduce image width to fit nicely on smaller screens */
+    margin-bottom: 10px; /* Add spacing between image and text */
+  }
+
+  .publication-text {
+    width: 100%; /* Ensure the text takes full width */
+  }
+}
+
+body {
+  scroll-behavior: smooth; /* Ensures smooth scrolling globally */
+}
+
